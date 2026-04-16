@@ -1,0 +1,66 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-04-16T05:34:59.597Z",
+  "appName": "WEIR",
+  "category": "saas",
+  "pages": [
+    {
+      "id": "home",
+      "name": "Home",
+      "route": "/home",
+      "filePath": "src/pages/Home.tsx",
+      "sections": []
+    },
+    {
+      "id": "login",
+      "name": "Login",
+      "route": "/login",
+      "filePath": "src/pages/Login.tsx",
+      "sections": [
+        "Error"
+      ]
+    },
+    {
+      "id": "signup",
+      "name": "Signup",
+      "route": "/signup",
+      "filePath": "src/pages/Signup.tsx",
+      "sections": [
+        "Error"
+      ]
+    },
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "route": "/dashboard",
+      "filePath": "src/pages/Dashboard.tsx",
+      "sections": []
+    },
+    {
+      "id": "settings",
+      "name": "Settings",
+      "route": "/settings",
+      "filePath": "src/pages/Settings.tsx",
+      "sections": [
+        "Error",
+        "Success"
+      ]
+    },
+    {
+      "id": "pricing",
+      "name": "Pricing",
+      "route": "/pricing",
+      "filePath": "src/pages/Pricing.tsx",
+      "sections": []
+    }
+  ],
+  "features": [
+    "auth",
+    "crud"
+  ],
+  "completenessScore": 78,
+  "completenessGaps": [
+    "Missing page: Landing (/)",
+    "Add error boundary or error state handling"
+  ]
+}
